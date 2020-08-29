@@ -1,0 +1,106 @@
+.header{
+ text-align: center;
+ margin-top: 50px;
+}
+.header h1{
+  font-size:35px;
+}
+.header p{
+  font-size:20px;
+}
+#header-img{
+ float: right;
+ width: 200px;
+ height: 200px;
+ position: relative;
+}
+#nav-bar{
+ height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 190px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+#nav-bar a{
+ padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+#nav-bar a:hover{
+ color: #f1f1f1;
+}
+#proffesional-means{
+ padding-top: 100px;
+ margin-left: 200px;
+}
+#proffesional-means h1{
+  font-size:30px;
+}
+#proffesional-means p{
+  font-size:20px;
+}
+#proffesional-gamer{
+  margin-left: 200px;
+}
+#proffesional-gamer h1{
+  font-size:30px;
+}
+#practice{
+  margin-left: 200px;
+}
+#practice h1{
+  font-size:30px;
+}
+#stream{
+  margin-left: 200px;
+}
+#stream h1{
+  font-size:30px;
+}
+#present{
+  margin-left: 200px;
+}
+#present h1{
+  font-size: 30px;
+}
+#form{
+  margin-left: 200px;
+}
+
+#name, #email{
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+#comment{
+ width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+#submit{
+  width: 330px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top:1% ;
+  background-color: green;
+}
+
+
+
+.flex-container {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
